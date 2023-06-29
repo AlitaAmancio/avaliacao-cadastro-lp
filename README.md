@@ -13,8 +13,8 @@ O desafio proposto foi desenvolver um aplicação desktop, na linguagem Java e u
 
 https://github.com/AlitaAmancio/avaliacao-cadastro-lp/assets/89790349/f991823f-2938-4ce4-b77f-1a0e5c87e780
 
-
-Caso tenha interesse em testá-la é essencial alterar as váriaveis de ambiente após clonar o repositório em sua máquina, garantindo a conexão com seu banco de dados e o caminho correto para a impressão do relatório IMC. O código que deve ser inserido no MySQL para a criação da Database encontra-se dentro do próprio arquivo, mais específicamente dentro do package "resources" sob o nome "script.sql". A aplicação cumpre os requisitos propostos possuindo integração com o DB e três telas funcionais para interação com o usuário (excluindo a inicial, que atualmente funciona como Placeholder), resumidamente possuem as seguintes características:
+### Mais Informações
+Caso tenha interesse em testar a aplicação é essencial alterar as váriaveis de ambiente após clonar o repositório em sua máquina, garantindo a conexão com seu banco de dados e o caminho correto para a impressão do relatório IMC. O código que deve ser inserido no MySQL para a criação da Database encontra-se dentro do próprio arquivo, mais específicamente dentro do package "resources" sob o nome "script.sql". A aplicação cumpre os requisitos propostos possuindo integração com o DB e três telas funcionais para interação com o usuário (excluindo a inicial, que atualmente funciona como Placeholder), resumidamente possuem as seguintes características:
 
 **Tela de Visualização:**
 Tela para qual somos redirecionados logo após a tela placeholder, apresentando em uma tabela todos os clientes atualmente cadastrados. Quando um registro é selecionado torna-se possível acessar as opções de "Atualizar Dados" ou "Calcular IMC". A tela também conta com uma barra de busca que encontra os clientes pelo nome (ou caractere que faça parte dos nomes) e os botões "Novo Cliente" e "Deslogar", o primeiro leva para a página de cadastro e o segundo "desloga" da aplicação, trazendo de volta para a tela placeholder.
